@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "speech-sdk-samples-node",
+  "version": "1.0.0",
+  "description": "Samples for the Microsoft Speech SDK on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js speech test.wav"
+  },
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "^1.8.0"
+  }
+}
